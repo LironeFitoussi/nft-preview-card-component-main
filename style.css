@@ -47,6 +47,32 @@ main {
     margin: 0;
 }
 
+.nft-value {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 2vh;
+    border-bottom: solid 1px hsla(215, 52%, 70%, 0.5);
+}
+
+.nft-value-el {
+    display: flex;
+    flex-direction: row;
+    gap: .5vw;
+}
+
+.nft-value-el > img {
+    ascent-override: 1 / 1 ;
+    object-fit: contain;
+}
+
+hr {
+    margin: 0;
+    border: solid 0.25px;
+    width: 100%;
+}
+
 /* Color Palete  */
 .blank {
 /* - Soft blue */
