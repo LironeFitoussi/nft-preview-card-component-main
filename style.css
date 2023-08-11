@@ -40,6 +40,12 @@ main {
     margin: 0 ;
 }
 
+.nft-info {
+    align-self: flex-start;
+    font-size: 22px;
+    color: hsla(215, 52%, 70%, 0.7);
+    margin: 0;
+}
 
 /* Color Palete  */
 .blank {
