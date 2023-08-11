@@ -20,6 +20,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 3vh;
     background-color: hsla(215, 32%, 27%, 0.5);
     width: 25%;
     padding: 2%;
@@ -31,6 +32,12 @@ main {
 .nft-img {
     width: 100%;
     border-radius: 1rem;
+}
+
+.nft-name {
+    align-self: flex-start;
+    font-size: 28px;
+    margin: 0 ;
 }
 
 
