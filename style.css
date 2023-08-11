@@ -17,6 +17,7 @@ body {
 }
 
 main {
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -31,7 +32,19 @@ main {
 
 .nft-img {
     width: 100%;
+    aspect-ratio: 1 / 1 ;
     border-radius: 1rem;
+}
+
+.preview-filter {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background-color: hsla(178, 100%, 50%, 0.55);
+    position: absolute;
+    border-radius: 1rem;
+    width: 25vw;
+    aspect-ratio: 1 / 1 ;
 }
 
 .nft-name {
@@ -109,7 +122,13 @@ main {
 
 :is(.nft-name, .artist > p ):hover {
     color: hsl(178, 100%, 50%);
+    cursor: pointer;
 }
+
+.nft-img:hover ~ .preview-filter {
+    display: flex;
+}
+
 
 /* Color Palete  */
 .blank {
