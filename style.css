@@ -82,6 +82,7 @@ main {
 
 .nft-price > p {
     color: hsl(178, 100%, 50%);
+    font-weight: 600;
 }
 
 .sell-reaming > p {
