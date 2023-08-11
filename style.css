@@ -109,6 +109,12 @@ main {
 
 /* Credits */
 .attribution { 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
     position: absolute;
     bottom: 2vh;
     font-size: 11px; text-align: center; 
@@ -116,6 +122,10 @@ main {
 
 .attribution a { 
     color: hsl(228, 45%, 44%); 
+}
+
+.attribution p {
+    margin: 0;
 }
 
 /* Active State */
@@ -129,6 +139,21 @@ main {
     display: flex;
 }
 
+/* Mobile */
+@media screen and  (max-width: 375px){
+    main {
+        width: 80%;
+        padding: 5%;
+    }
+
+    .artist {
+        gap: 4vw;
+    }
+
+    .artist > img {
+        height: 4vh;
+    }
+}
 
 /* Color Palete  */
 .blank {
